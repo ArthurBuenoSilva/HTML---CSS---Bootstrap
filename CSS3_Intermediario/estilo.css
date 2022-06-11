@@ -1,0 +1,14 @@
+/*Modelo caixa*/
+
+.conteudo{
+	border: 1px solid red;
+	text-align: justify;
+	
+	/*top, right, bottom , left*/
+	padding: 20px;
+
+	/*top, right, bottom , left*/
+	margin: 20px;
+
+	width: 150px;
+}

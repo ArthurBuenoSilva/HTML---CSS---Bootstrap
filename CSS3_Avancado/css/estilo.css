@@ -1,0 +1,98 @@
+/********* Box sizing e cantos arredondados *********/
+
+/* #caixa{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 10px 50px 50px 50px;
+    -moz-radius: 10px 50px 50px 50px;
+    border-radius: 10px 50px 50px 50px;
+} */
+
+/* #caixa2{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    -webkit-border-radius: 10px 50px 50px 50px;
+    -moz-radius: 10px 50px 50px 50px;
+    border-radius: 10px 50px 50px 50px;
+} */
+
+/********* Degradês e Transparências *********/
+
+/* #caixa{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(110deg, red, rgb(0, 188, 235), yellow, black);
+    background: radial-gradient(red, blue, green, brown, purple);
+} */
+
+/* #caixa h1{
+    background: rgba(255, 255, 255, 0.5);
+} */
+
+/********* Sombras *********/
+
+/* #caixa{
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: #009670;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+} */
+
+/* #caixa h1{
+    color: white;
+    text-shadow: 5px 2px 5px black;
+} */
+
+/********* Animações *********/
+
+/* @keyframes animacao-caixa{
+    from {
+        background-color: red;
+        border-radius: 0;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background-color: green;
+        border-radius: 150px;
+        top: 200px;
+        left: 200px;
+    }
+} */
+
+/* #caixa{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    animation: animacao-caixa 5s 3s infinite alternate;
+} */
+
+/********* Transições *********/
+
+/* #caixa{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}  */
+
+/* #caixa:hover{
+    width: 400px;
+    background-color: yellow;
+} */
